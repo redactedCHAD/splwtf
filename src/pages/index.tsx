@@ -64,7 +64,8 @@ export default function Home() {
         },
         headers: {
           accept: 'application/json',
-          'X-API-KEY': '6bfd2021f76a403c9827fd943959c1f2'
+                    // Add more fallback tokens here...
+          'X-API-KEY': ''
         },
         timeout: 10000 // Set a timeout of 10 seconds
       });
