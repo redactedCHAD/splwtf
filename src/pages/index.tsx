@@ -64,7 +64,7 @@ export default function Home() {
         },
         headers: {
           accept: 'application/json',
-                    // Add more fallback tokens here...
+                    // Add API Bearer Key
           'X-API-KEY': ''
         },
         timeout: 10000 // Set a timeout of 10 seconds
